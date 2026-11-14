@@ -235,7 +235,7 @@ body {
   height: 19px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .header-container {
     padding: 0 0.85rem;
   }
@@ -250,7 +250,7 @@ body {
     width: auto;
   }
   .mobile-sidebar-toggle {
-    display: flex;
+    display: inline-flex;
   }
 }
 
@@ -633,6 +633,62 @@ body {
 
   .mobile-sidebar-toggle {
     display: inline-flex;
+  }
+}
+
+@media (max-width: 650px) {
+  .top-title-banner {
+    padding: 1.15rem 0.75rem 1rem 0.75rem;
+  }
+  .banner-title {
+    font-size: 1.55rem;
+    letter-spacing: 0.04em;
+  }
+  .banner-subtitle {
+    font-size: 0.98rem;
+  }
+  .banner-accent-dash {
+    display: none;
+  }
+  .header-container {
+    padding: 0 0.5rem;
+    gap: 0.4rem;
+  }
+  .header-left .nav-link {
+    font-size: 0.92rem;
+    padding: 0.4rem 0.5rem;
+  }
+  .mobile-toggle-text {
+    display: none;
+  }
+  .mobile-sidebar-toggle {
+    padding: 0.4rem 0.5rem;
+  }
+  .viewer-main-content {
+    padding: 1rem 0.65rem;
+  }
+  .breadcrumb-container {
+    font-size: 0.92rem;
+  }
+  .table-search-input {
+    width: 100%;
+  }
+  .viewer-header-tools {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .table-search-wrap {
+    flex: 1;
+  }
+  .col-title {
+    min-width: 200px;
+  }
+  .col-desc {
+    min-width: 220px;
+  }
+  .excel-table th, .excel-table td {
+    padding: 0.7rem 0.65rem;
+    font-size: 0.88rem;
   }
 }
 
