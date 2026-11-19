@@ -198,3 +198,5 @@ project_1/
    - Size limit: strictly enforced 10 MB maximum.
 4. **Safe Filename Handling**: Files are stored on disk with randomized unique identifiers (`doc_<timestamp>_<random>.pdf`) preventing directory traversal, while downloads use the sanitized admin-given title.
 5. **Cascading Cleanup**: Deleting sections or subsections cleans up all associated documents from the database and removes the physical files from the `uploads/` directory on disk.
+#   A P _ G D C _ W O R K _  
+ 
